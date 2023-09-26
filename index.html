@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>zadanie1</title>
+</head>
+<header>
+  <nav>
+      <img src="log/15.jpg" alt="Логотип" class="logo">
+      <h3>web</h3>
+      <ul class="nav-wraper">
+          <li class="_blank"><a href="index1.2.html" class="nav-item">Приветик</a></li>
+          <li class="_blank"><a href="./about/index3.html" class="nav-item">Hi</a></li>
+          <li class="n_blank"><a href="https://donnarosa.by/upload/iblock/b16/processed-_1_.jpeg" class="nav-item">Hello</a></li>
+      </ul>
+  </nav>
+
+</header>
+<body class="root">
+  <main>
+  <ol>
+    <li><a href="#" title="Главная">Главная</a></li>
+    <li><a href="index2.html" title="Контакты">Контакты</a></li>        <li><a href="#" title="о сайте">О сайте</a></li>
+    <li> <a href="kubsu.ru">Ссылка на главную страницу kubsu.ru</a></li>
+    <li> <a  target="_blank"href="https://www.kubsu.ru">Ссылка на главную страницу в протоколе kubsu.ru</a></li>
+    <li><a  target="_blank"href="https://www.kubsu.ru"><img src="logo/1.jpg"alt="Ссылка на внутруннюю страницу" usemap="#op"></a></li>
+    <map name="op"> 
+      <area shape="circle" coords="70,70,25" href="https://www.kubsu.ru" target="_blank" alt="то-то"> 
+      <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" targer="_blanc" alt="что-то">
+    </map>
+    <li><a  target="_blank"href="https://u.to/eePuHw">Ссылка на внутреннюю страницу </a></li>
+    <li><a  target="_blank"href="https://u.to/p_PuHw">Ссылка на главную страницу </a></li>
+    <li><a  target="_blank"href="index1.2.html"> Ссылка на фрагмент</a></li>
+    <li><a  target="_blank"href="https://www.kubsu.ru/ru/graduates?field_graduate_date_value%5Bvalue%5D%5Byear%5D=2023&field_graduate_faculty_target_id=309&field_graduate_dep_target_id=All"> Ссылка с тремя параметрами</a></li>
+    <li><a  target="_blank"href="https://www.kubsu.ru/ru/public-portfolio/30944">Ссылка с id </a></li>
+    <li><h2>Относительные ссылки</h2></li>
+    <li><a  target="_blank"href="index2.html"> Ссылка на каталог</a></li>
+    <li><a  target="_blank"href="./about/index3.html"> Ссылка на каталог about</a></li>
+    <li>Если вам нравятся котики то еще <a  target="_blank"href="https://72.ru/text/animals/2023/03/01/72097616/"> котики</a> которые порадуют вас
+    <li><a  target="_blank"href=" https://cdn.iportal.ru/preview/news/articles/5648d0f5489371e8bc21a22a5bcdf9a901239b4c_727.jpg.webp-portal"> Ссылка на фрагмент стороннего сайта</a></li>
+    <img src="https://donnarosa.by/upload/iblock/b16/processed-_1_.jpeg" width="800" height="600" alt="тег map"> 
+    <li><a href="##">ссылка с пустым href<a></li></br> 
+    <li><a> ссылка без href</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/HTML5" rel="nofollow">ссылка без доступа к поисковикам</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/HTML5" rel="noindex">ссылка без индексации</a></li>
+  </ol>
+  
+      <form>
+        <li><strong>Как вас зовут?</strong></li>
+        <li><input maxlength="25" size="40"></li>   
+        <p>Email: <input type="email" name="login" required></p>
+        <p>дата рождения <input type="date" id="start" name="trip-start" required></p>
+        <p><b>выберите пол</b></p>
+        <p><input name="мужской" type="radio" value="мужской" required>мужской</p>
+        <p><input name="женский" type="radio" value="женский" required>женский</p>
+        
+
+        <p><strong>Какой ваш любимый язык программирования:Pascal,Prolog,Scala,C,C++,PHP</strong></p>
+        <p><select name="select" size="5" multiple>
+         <option selected value="1">C++</option>
+         <option value="2">PHP</option>
+         <option value="3">Pascal</option>
+         <option value="4">Prolog</option>
+         <option value="5">C</option>
+
+        </select>
+        
+        <p><b>Введите вашу биографию:</b></p>
+        <p><textarea name="биография"></textarea></p>
+        
+
+        <p><input type="checkbox" name="1" value="с контрактом ознакомлен(а)" required>с контрактом ознакомлен(а)</p>
+        <p> 
+        <input type="submit" value="Отправить" required></p>
+        </p>
+      
+       
+      </form>
+      <table>
+        <caption>таблица</caption>
+        <thead>
+        <tr>
+            <th scope="col">1 колонка</th>
+            <th scope="col">2 колонк</th>
+            <th scope="col">3 колонк</th>
+            <th scope="col">4 колонк</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr class="chet-item">
+              <th scope="row">1 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+          </tr>
+          <tr>
+              <th scope="row">2 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+          </tr>
+          <tr class="chet-item">
+              <th scope="row">3 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+          </tr>
+          <tr>
+              <th scope="row">4 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+          </tr>
+          <tr class="chet-item">
+              <th scope="row">5 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+          </tr>
+          <tr>
+              <th scope="row">6 урок</th>
+              <td>дата</td>
+              <td>задание</td>
+              <td>текст задания</td>
+            </tr>
+          </tbody>
+          <tfoot>
+          <tr class="chet-item">
+              <th scope="row" colspan="2">Итоги</th>
+              <td colspan="2">  </td>
+          </tr>
+          </tfoot>
+      </table>
+    </main>
+    <footer>
+        <a id="bottom"></a>
+        <p>Преподаватель: Синица</p><br>
+        <p>Студент: Кравченко</p>
+    
+    </footer>
+</body>
+
+</html>
